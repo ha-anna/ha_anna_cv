@@ -2,7 +2,7 @@ import React from "react";
 
 
 export default function Introduction(props) {
-  const { name, position, location, webpage, email, phone, about } = props
+  const { name, position, location, webpage, email, about } = props
 
   return (
     <section aria-label="Introduction" className="introduction">
@@ -16,7 +16,7 @@ export default function Introduction(props) {
           <a href={`https://www.${webpage}`} target="_blank" rel="noreferrer" className="link">{webpage}</a>
           <span className="line">|</span>
           <a href={`mailto:${email}`} className="link">{email}</a>
-          {/* <span className="line">|</span>
+          {/* <span className="line">|</span> TODO: add PHONE TO PROPS!!!
           <a href={`tel:${phone}`} className="link">{phone}</a> */}
         </div>
         <p className="about">{about}</p>

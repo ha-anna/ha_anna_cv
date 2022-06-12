@@ -335,6 +335,10 @@ h3 {
     justify-content: space-between;
   }
 
+  .lang-name {
+    margin-top: 0;
+  }
+
   .date {
     font-size: 1rem;
   }
