@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
+import { BrowserView, MobileView } from 'react-device-detect';
 
 export default function Header(props) {
   const downloadCV = props.cv
@@ -22,7 +22,7 @@ export default function Header(props) {
       </BrowserView>
       <MobileView>
         <form action={`/${cvFIle}`}>
-          <button className="download-button">{downloadCV} Mobile</button>
+          <button className="download-button">{downloadCV}</button>
         </form>
       </MobileView>
       <button onClick={toggleLanguage} className="lang-button">{langButton}</button>
