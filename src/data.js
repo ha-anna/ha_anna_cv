@@ -1,5 +1,6 @@
 const data = [{
   "cv": "Download CV",
+  "cvFIle": "files/HA_ANNA_CV.pdf",
   "langButton": "한",
   "name": "Ha Anna",
   "position": "Front-end Developer",
@@ -137,6 +138,7 @@ const data = [{
   "experience": [
     {
       "id": "경력사항",
+      "cvFIle": "files/HA_ANNA_CV.pdf",
       "name": "Studio Siseon",
       "position": "메니저",
       "start": "7월 2018",

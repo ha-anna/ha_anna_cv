@@ -1,8 +1,9 @@
 import React from "react";
+import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
 
 export default function Header(props) {
   const downloadCV = props.cv
-  const { langButton, toggleLanguage } = props
+  const { langButton, toggleLanguage, cvFIle } = props
 
   function saveAsPdf(pdf) {
     const iframe = document.createElement('iframe');
@@ -16,7 +17,14 @@ export default function Header(props) {
   return (
     <header>
       <h1 className="visually-hidden">Ha Anna's CV</h1>
-      <button onClick={saveAsPdf} className="download-button">{downloadCV}</button>
+      <BrowserView>
+        <button onClick={saveAsPdf} className="download-button">{downloadCV}</button>
+      </BrowserView>
+      <MobileView>
+        <form action={`/${cvFIle}`}>
+          <button className="download-button">{downloadCV} Mobile</button>
+        </form>
+      </MobileView>
       <button onClick={toggleLanguage} className="lang-button">{langButton}</button>
     </header>
   )
