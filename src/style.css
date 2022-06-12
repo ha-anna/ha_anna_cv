@@ -196,6 +196,10 @@ section:not(.introduction) {
   margin-left: 40px;
 }
 
+section {
+  margin-right: 40px;
+}
+
 /* buttons */
 
 .download-button {
@@ -238,7 +242,7 @@ section:not(.introduction) {
 .lang-button:hover {
   background: var(--background);
   color: var(--accent);
-  border: 3px solid var(--body-bg);
+  border: 3px solid var(--accent);
 }
 
 /* links */
@@ -310,6 +314,10 @@ h3 {
 }
 
 @media screen and (min-width: 1200px) {
+  main {
+    padding: 40px 100px;
+  }
+
   .line {
     display: unset;
     margin: 0 5px;
@@ -328,6 +336,10 @@ h3 {
   }
 
   .date {
+    font-size: 1rem;
+  }
+
+  .skill {
     font-size: 1rem;
   }
 
@@ -391,12 +403,12 @@ h3 {
     padding: 0;
     font-size: 11px;
     box-shadow: none;
-    line-height: 1;
-    margin-top: -15px;
+    line-height: 1.2;
+    margin-top: -20px;
   }
 
   .introduction {
-    margin-bottom: -10px;
+    margin-bottom: 0px;
     padding-bottom: 0;
   }
 
@@ -414,16 +426,22 @@ h3 {
     margin-bottom: 5px;
   }
 
+  .line {
+    margin: 0 5px;
+    color: var(--subtitles);
+  }
 
   #root {
     margin: 0;
   }
 
- h2:not(.name) {
-   text-transform: uppercase;
-   font-size: 0.5rem;
-   margin-top: 25px;
- }
+  h2:not(.name) {
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    margin-top: 15px;
+  }
+
+ 
 
   h3 {
     font-size: 16px;
@@ -434,12 +452,16 @@ h3 {
     color: #000;
   }
 
-  .school > h3 {
+  .school > h3:not(:first-child) {
     margin-top: 5px;
   }
 
- .languages,
- span,
+  .languages {
+    margin-top: -10px;
+  }
+
+  .languages,
+  span,
   .intro-info>.info,
   .intro-info>.line,
   .intro-info>.link {

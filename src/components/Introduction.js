@@ -16,8 +16,8 @@ export default function Introduction(props) {
           <a href={`https://www.${webpage}`} target="_blank" rel="noreferrer" className="link">{webpage}</a>
           <span className="line">|</span>
           <a href={`mailto:${email}`} className="link">{email}</a>
-          <span className="line">|</span>
-          <a href={`tel:${phone}`} className="link">{phone}</a>
+          {/* <span className="line">|</span>
+          <a href={`tel:${phone}`} className="link">{phone}</a> */}
         </div>
         <p className="about">{about}</p>
       </div>
