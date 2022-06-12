@@ -6,7 +6,11 @@ export default function Education(props) {
     return (
       <div className="school" key={ed.name}>
         <h3>{ed.name}</h3>
-        <span className="edu-info">{ed.area} | {ed.start} - {ed.end}</span>
+        <div className="edu">
+          <span className="edu-info">{ed.area}</span>
+          <span className="line">|</span>
+          <span className="edu-info date">{ed.start} - {ed.end}</span>
+        </div>
       </div>
     )
   })

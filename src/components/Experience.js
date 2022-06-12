@@ -7,7 +7,11 @@ export default function Experience(props) {
     return (
       <div className="experience" key={exp.name}>
         <h3>{exp.name}</h3>
-        <span className="exp-info"> {exp.position} | {exp.start} - {exp.end}</span>
+        <div className="exp">
+          <span className="exp-info"> {exp.position} </span>
+          <span className="line">|</span>
+          <span className="exp-info date">{exp.start} - {exp.end}</span>
+        </div>
 
         <ul className="exp-details">
           {exp.responsibilities.map(res => {

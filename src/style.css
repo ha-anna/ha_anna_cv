@@ -12,7 +12,7 @@
 
 * {
   box-sizing: border-box;
-  margin: 10px 0;
+  margin: 0;
 }
 
 /* hiding ARIA label */
@@ -28,6 +28,8 @@
   white-space: nowrap;
   border: 0;
 }
+
+/* general styling */
 
 html, 
 body {
@@ -56,52 +58,142 @@ main {
   aspect-ratio: 1 / 1.4;
   margin: 0px auto 50px auto;
   background: var(--background);
-  padding: 50px 80px;
-  line-height: 1.5;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 1px;
+  padding: 30px;
+  line-height: 1.5;
+
 }
+
+/* pdf related */
 
 iframe {
   display: none;
 }
 
+/* intro section */
+
 .introduction {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: 35px;
-}
-
-section {
-margin-right: 65px;
-}
-
-section:not(.introduction) {
-  margin-left: 65px;
-}
-
-.experience,
-.school {
-  margin-bottom: 20px;
+  align-items: baseline;
+  margin-top: 10px;
 }
 
 .intro-info {
   display: flex;
   flex-flow: column nowrap;
-  margin: 0;
-}
-
-.line {
-  display: none;
-}
-
-.intro {
-  margin-bottom: 0;
+  align-items: flex-start;
+  margin-top: 5px;
 }
 
 .about {
+  margin-top: 15px;
+}
+
+.intro-info>.info,
+.intro-info>.line,
+.intro-info>.link {
+  margin-top: 5px;
+}
+
+/* skills section */
+
+.skill {
+  color: var(--accent);
+  display: inline-block;
+  border: 2px solid var(--accent);
+  border-radius: 2px;
+  font-size: 0.8125rem;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 0;
+}
+
+/* projects section */
+
+.project {
+  margin-bottom: 15px;
+}
+
+.tech-stack {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech {
+  border: 2px solid var(--subtitles);
+  border-radius: 2px;
+  padding: 0 5px;
+  margin: 5px;
+  margin-left: 0;
+  font-size: 0.7rem;
+}
+
+/* experience section */
+
+.experience {
+  margin-bottom: 10px;
+}
+
+.exp {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 10px;
+}
+
+/* education section */
+
+.edu {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 10px;
+}
+
+/* languages section */
+
+.lang-name {
+  margin-top: 10px;
+}
+
+/* sns section */
+
+.sns {
+  display: flex;
+}
+
+.sns>a {
+  opacity: 0.7;
+  transition: opacity 300ms ease-in-out;
   margin: 0;
+}
+
+.sns>a:hover {
+  opacity: 1;
+}
+
+/* icon */
+
+.icon {
+  max-width: 100%;
+  height: 32px;
+  transform: translateY(2px);
+  margin-right: 10px;
+}
+
+.sns-icon {
+  max-width: 100%;
+  height: 35px;
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+/* section even-out */
+
+section:not(.introduction) {
+  margin-left: 40px;
 }
 
 /* buttons */
@@ -109,15 +201,16 @@ section:not(.introduction) {
 .download-button {
   color: var(--background);
   background: var(--accent);
-  padding: 10px 20px;
   font-family: 'IBM Plex Mono', monospace;
   border: 3px solid var(--background);
-  transition: all 300ms ease-in-out;
-  position: relative;
-  top: 80px;
-  right: 20px;
-  cursor: pointer;
   border-radius: 2px;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+  padding: 5px 10px;
+
+  position: relative;
+  top: 45px;
+  right: 7px;
 }
 
 .download-button:hover {
@@ -127,93 +220,28 @@ section:not(.introduction) {
   border-radius: 2px;
 }
 
-
 .lang-button {
-  position: relative;
   color: var(--background);
   background: var(--accent);
-  height: 49px;
-  aspect-ratio: 1/1;
   font-family: 'IBM Plex Mono', monospace;
   border: 3px solid var(--background);
   transition: background 300ms ease-in-out, color 300ms ease-in-out;
-  top: 90px;
-  right: 20px;
   text-transform: uppercase;
-  padding:0;
-  margin: 0;
   cursor: pointer;
   border-radius: 2px;
+  padding: 5px 8px;
+  position: relative;
+  top: 45px;
+  right: 7px;
 }
+
 .lang-button:hover {
   background: var(--background);
   color: var(--accent);
   border: 3px solid var(--body-bg);
 }
 
-/* icons */
-
-.icon {
-  max-width: 100%;
-  height: 32px;
-  margin-top: 25px;
-}
-
-.sns-icon {
-  max-width: 100%;
-  height: 35px;
-  margin: 0;
-}
-
-/* typography */
-
-.info,
-.about,
-.tech-stack,
-.exp-info,
-.edu-info,
-.lang-level {
-  color: var(--subtitles);
-}
-
-.name {
-  font-size: 2rem;
-  color: var(--primary);
-  margin-top: 0;
-}
-
-h2 {
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  color: var(--section);
-  font-weight: 400;
-  margin-top: 50px;
-  letter-spacing: 2px;
-}
-
-h3 {
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  margin-bottom: 0;
-}
-
-h3 > a {
-  padding:0;
-  margin-bottom: 5px;
-}
-
-.tech-stack {
-  margin-top: 0;
-}
-
-.tech {
-    border: 2px solid var(--subtitles);
-    border-radius: 2px;
-    padding: 0 5px;
-    margin: 5px;
-    margin-left: 0;
-    font-size: 0.7rem;
-}
+/* links */
 
 .link {
   display: inline-block;
@@ -240,75 +268,70 @@ h3 > a {
   transform-origin: bottom left;
 }
 
-.name {
-  margin-bottom: 0;
+/* typography */
+
+.info,
+.about,
+.tech-stack,
+.exp-info,
+.edu-info,
+.lang-level {
+  color: var(--subtitles);
 }
 
-.position {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/* sections */
-
-
-.skill {
-  color: var(--accent);
-  display: inline-block;
-  border: 2px solid var(--accent);
-  border-radius: 2px;
-  padding: 5px;
-  margin: 5px;
-  margin-left: 0;
-}
-
-.languages {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 20px;
-  font-size: 0.8rem;
-}
-
-.language {
-  margin: 0;
-}
-
-.lang-name {
-  margin-top: 0;
-  text-transform: capitalize;
+h2:not(.name) {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: var(--section);
   font-weight: 400;
-  font-size: inherit;
+  margin-top: 50px;
+  letter-spacing: 2px;
 }
 
-.sns {
-  display: flex;
-  gap: 20px;
+.name {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-top: 0;
+  text-transform: uppercase;
 }
 
-.sns > a {
-  opacity: 0.7;
-  transition: opacity 300ms ease-in-out;
-  margin: 0;
+h3 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 0;
 }
 
-.sns > a:hover {
-  opacity: 1;
+.date {
+  font-size: 0.8125rem;
+}
+
+.line {
+  display: none;
 }
 
 @media screen and (min-width: 1200px) {
   .line {
     display: unset;
+    margin: 0 5px;
   }
 
-  .intro-info {
+  .languages,
+  .intro-info,
+  .exp,
+  .edu {
     display: flex;
     flex-flow: row wrap;
-    gap: 5px;
+  }
+
+  .languages {
+    justify-content: space-between;
+  }
+
+  .date {
+    font-size: 1rem;
   }
 
 }
-
 
 @media print {
 
@@ -319,54 +342,46 @@ h3 > a {
     font-size: 12px;
   }
 
-  .icon {
-    height: 30px;
-    transform: translate(10px, -10px);
+  section:not(.introduction) {
+    margin-left: 40px;
   }
 
   section {
-      margin-right: 60px;
-  }
-  
-  section:not(.introduction) {
-      margin-left: 65px;
+    margin-right: 40px;
   }
 
   .skill {
     margin-bottom: 0;
-    padding: 3px;
     font-size: 10px;
     border-width: 1px;
   }
 
-  #skills {
-    margin-bottom: 5px;
-  }
-
-  .about {
-    margin-bottom: 10px;
+  .tech {
+    font-size: 10px;
+    border: none;
+    padding: 0;
+    margin-top: 0;
   }
 
   .tech-stack {
-    margin-top: -5px;
-  }
-
-  .tech {
-    margin-top: 0;
-    padding: 0px;
-    font-size: 10px;
-    border: none;
+    margin-left: 0;
+    margin-bottom: 5px;
   }
 
   .line {
     display: unset;
   }
 
-  .intro-info {
+  .languages,
+  .intro-info,
+  .exp,
+  .edu {
     display: flex;
     flex-flow: row wrap;
-    gap: 5px;
-    margin-bottom: 0;
+  }
+
+  .languages {
+    justify-content: space-between;
   }
 
   main {
@@ -385,6 +400,9 @@ h3 > a {
     padding-bottom: 0;
   }
 
+  .date {
+    font-size: 12px;
+  }
 
   .project,
   section {
@@ -396,46 +414,41 @@ h3 > a {
     margin-bottom: 5px;
   }
 
-  #projects {
-    margin-bottom: 0;
-  }
 
   #root {
     margin: 0;
   }
 
-  h2 {
-    margin-top: 20px;
-    font-size: 10px;
-  }
+ h2:not(.name) {
+   text-transform: uppercase;
+   font-size: 0.5rem;
+   margin-top: 25px;
+ }
 
   h3 {
     font-size: 16px;
-    margin-top: 0;
     margin-bottom: 5px;
   }
 
   h3 .link {
     color: #000;
   }
-  .languages {
-    margin-bottom: 0;
+
+  .school > h3 {
+    margin-top: 5px;
   }
 
-  .languages,
-  span {
-    font-size: 12px;
-  }
-
+ .languages,
+ span,
   .intro-info>.info,
   .intro-info>.line,
   .intro-info>.link {
     font-size: 12px;
   }
 
-.download-button,
-.lang-button,
-#sns-section {
+  .download-button,
+  .lang-button,
+  #sns-section {
     display: none;
   }
 }
