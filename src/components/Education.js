@@ -8,7 +8,7 @@ export default function Education(props) {
         <h3>{ed.name}</h3>
         <div className="edu">
           <span className="edu-info">{ed.area}</span>
-          <span className="line">|</span>
+          <span className="line" aria-hidden="true">|</span>
           <span className="edu-info date">{ed.start} - {ed.end}</span>
         </div>
       </div>

@@ -110,6 +110,10 @@ iframe {
   margin-left: 0;
 }
 
+.skills > ul {
+  padding: 0;
+}
+
 /* projects section */
 
 .project {

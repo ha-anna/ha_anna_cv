@@ -9,7 +9,7 @@ export default function Experience(props) {
         <h3>{exp.name}</h3>
         <div className="exp">
           <span className="exp-info"> {exp.position} </span>
-          <span className="line">|</span>
+          <span className="line" aria-hidden="true">|</span>
           <span className="exp-info date">{exp.start} - {exp.end}</span>
         </div>
 

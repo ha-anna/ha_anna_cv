@@ -15,7 +15,7 @@ export default function Header(props) {
   }
 
   return (
-    <header>
+    <header >
       <h1 className="visually-hidden">Ha Anna's CV</h1>
       <BrowserView>
         <button onClick={saveAsPdf} className="download-button">{downloadCV}</button>
@@ -25,7 +25,7 @@ export default function Header(props) {
           <button className="download-button">{downloadCV}</button>
         </form>
       </MobileView>
-      <button onClick={toggleLanguage} className="lang-button">{langButton}</button>
+      <button onClick={toggleLanguage} className="lang-button" aria-label="Change language">{langButton}</button>
     </header>
   )
 }

@@ -33,15 +33,15 @@ const data = [{
       "id": "experience",
       "name": "Studio Siseon",
       "position": "Manager",
-      "start": "Jul 2018",
-      "end": "Oct 2020",
+      "start": "July 2018",
+      "end": "October 2020",
       "responsibilities": ["Acted as senior liaison between Studio Siseon and the client, always ensuring that all contract requirements were met with complete customer satisfaction.", "Prepared materials for documentary interviews and provided translation services for foreign film crews.", "One of my key accomplishments is working as a translator (English to Polish) of a video “Peace and Prosperity on the Korean Peninsula – The Audacious Journey” for the Embassy of the Republic of Korea in Poland."]
     },
     {
       "name": "Green Cafe Nero",
       "position": "Shift Manager/Barista",
-      "start": "Apr 2017",
-      "end": "Apr 2018",
+      "start": "April 2017",
+      "end": "April 2018",
       "responsibilities": ["Managed and led staff of two to three baristas while ensuring the highest quality of service.", "Effectively handled customer complaints and special requests, educated customers about the differences in coffee beans, drinks and Company’s standards.", "Maintained inventory levels to ensure product availability and reduced the amount of expired products which resulted in lowering the Coffee Shop's expenses."]
     }],
   "education": [
@@ -55,20 +55,20 @@ const data = [{
     {
       "name": "Sogang University",
       "area": "Korean Language Course",
-      "start": "Mar 2021",
-      "end": "Nov 2021"
+      "start": "March 2021",
+      "end": "November 2021"
     },
     {
       "name": "University Of Warsaw",
       "area": "Master Degree in English Studies",
-      "start": "Oct 2018",
-      "end": "Sept 2020"
+      "start": "October 2018",
+      "end": "September 2020"
     },
     {
       "name": "SWPS University",
       "area": "Bachelor’s Degree in English Studies",
-      "start": "Oct 2015",
-      "end": " Jul 2018"
+      "start": "October 2015",
+      "end": " July 2018"
     }
   ],
   "languages": [
