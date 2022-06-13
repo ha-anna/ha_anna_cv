@@ -11,7 +11,7 @@ const data = [{
   "about": "Creative, meticulous and highly motivated front-end developer with a goal to make engaging and practical user experiences. Very passionate about accessibility, aesthetics and UI.",
   "skills": {
     "id": "skills",
-    "skills": ["HTML", "CSS", "JavaScript", "React", "SASS", "Bootstrap", "Tailwind CSS", "Git&Github", "Responsive Design", "UX/UI", "Illustrator", "Photoshop", "Figma"]
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Sass", "Bootstrap", "Tailwind CSS", "Git&Github", "Responsive Design", "UX/UI", "Illustrator", "Photoshop", "Figma"]
   },
   "projects":
     [
@@ -25,7 +25,7 @@ const data = [{
         "title": "Movie Watchlist",
         "url": "https://its-haanna.github.io/Scrimba_Projects/Movie_watchlist/",
         "techStack": ["HTML", "CSS", "JavaScript", "API"],
-        "description": "Movie Watchlist is a searchable database of popular movies and tv shows. Users can look for a title that interests them, read about it and add it to a watchlist. Added movies will be stored in user's local storage until they decide to remove it."
+        "description": "Movie Watchlist is a searchable database of popular movies and tv shows. Users can look for a title that interests them, read about it and add it to a watchlist. Added movies will be stored in the user's local storage until they decide to remove them."
       }
     ],
   "experience": [
@@ -42,7 +42,7 @@ const data = [{
       "position": "Shift Manager/Barista",
       "start": "April 2017",
       "end": "April 2018",
-      "responsibilities": ["Managed and led staff of two to three baristas while ensuring the highest quality of service.", "Effectively handled customer complaints and special requests, educated customers about the differences in coffee beans, drinks and Company’s standards.", "Maintained inventory levels to ensure product availability and reduced the amount of expired products which resulted in lowering the Coffee Shop's expenses."]
+      "responsibilities": ["Managed and led the staff of two to three baristas while ensuring the highest quality of service.", "Effectively handled customer complaints and special requests, educated customers about the differences in coffee beans, drinks and Company’s standards.", "Maintained inventory levels to ensure product availability and reduced the number of expired products which resulted in lowering the Coffee Shop's expenses."]
     }],
   "education": [
     {
@@ -60,7 +60,7 @@ const data = [{
     },
     {
       "name": "University Of Warsaw",
-      "area": "Master Degree in English Studies",
+      "area": "Master's Degree in English Studies",
       "start": "October 2018",
       "end": "September 2020"
     },
@@ -117,7 +117,7 @@ const data = [{
   "about": "Self-taught, creative and highly motivated front-end developer. My goal is to make beautiful and functional user experiences by writing clean and declarative code.",
   "skills": {
     "id": "기술",
-    "skills": ["HTML", "CSS", "JavaScript", "React", "SASS", "Bootstrap", "Tailwind CSS", "Git&Github", "Responsive Design", "UX/UI", "Illustrator", "Photoshop", "Figma"]
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Sass", "Bootstrap", "Tailwind CSS", "Git&Github", "Responsive Design", "UX/UI", "Illustrator", "Photoshop", "Figma"]
   },
   "projects":
     [
@@ -132,7 +132,7 @@ const data = [{
         "title": "영화목록",
         "url": "https://its-haanna.github.io/Scrimba_Projects/Movie_watchlist/",
         "techStack": ["HTML", "CSS", "JavaScript", "API"],
-        "description": "영화목록은 is a searchable database of popular movies and tv shows. Users can look for a title that interests them, read about it and add it to a watchlist. Added movies will be stored in user's local storage until they decide to remove it."
+        "description": "영화목록은 is a searchable database of popular movies and tv shows. Users can look for a title that interests them, read about it and add it to a watchlist. Added movies will be stored in the user's local storage until they decide to remove them."
       }
     ],
   "experience": [
@@ -150,7 +150,7 @@ const data = [{
       "position": "교대조 관리인/바리스타",
       "start": "4월 2017",
       "end": "4월 2018",
-      "responsibilities": ["Managed and led staff of two to three baristas while ensuring the highest quality of service.", "Effectively handled customer complaints and special requests, educated customers about the differences in coffee beans, drinks and Company’s standards.", "Maintained inventory levels to ensure product availability and reduced the amount of expired products which resulted in lowering the Coffee Shop's expenses."]
+      "responsibilities": ["Managed and led staff of two to three baristas while ensuring the highest quality of service.", "Effectively handled customer complaints and special requests, educated customers about the differences in coffee beans, drinks and Company’s standards.", "Maintained inventory levels to ensure product availability and reduced the number of expired products which resulted in lowering the Coffee Shop's expenses."]
     }],
   "education": [
     {
