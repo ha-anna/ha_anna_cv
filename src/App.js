@@ -21,14 +21,14 @@ export default function App() {
     }
   }
 
-  const { cv, cvFIle, langButton, name, position, location, webpage, email, phone, about, skills, projects, experience, education, languages, sns } = currentLang
+  const { cv, cvFile, langButton, name, position, location, webpage, email, phone, about, skills, projects, experience, education, languages, sns } = currentLang
 
   return (
     <>
       <Header
         cv={cv}
         toggleLanguage={toggleLanguage}
-        cvFIle={cvFIle}
+        cvFile={cvFile}
         langButton={langButton}
       />
       <main>
