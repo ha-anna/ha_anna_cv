@@ -107,6 +107,7 @@ const data = [{
 },
 {
   "cv": "이력서 다운로드",
+  "cvFile": "files/HA_ANNA_CV.pdf",
   "langButton": "Eng",
   "name": "하안나",
   "position": "프론트엔드 개발자/디자이너",
