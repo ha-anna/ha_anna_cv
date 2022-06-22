@@ -115,7 +115,7 @@ const data = [{
   "webpage": "haanna.com",
   "email": "anna@haanna.com",
   "phone": "+82 010-2156-5345",
-  "about": "Self-taught, creative and highly motivated front-end developer. My goal is to make beautiful and functional user experiences by writing clean and declarative code.",
+  "about": "일에 동기가 확실하고 창의적이며 매사에 꼼꼼한 프론트앤드 개발자입니다. UI, 미학적인 디자인, 개방된 접근성을 중심으로 실용적인 사용자 경험을 추구하고자 합니다.",
   "skills": {
     "id": "기술",
     "skills": ["HTML", "CSS", "JavaScript", "React", "Sass", "Bootstrap", "Tailwind CSS", "Git&Github", "Responsive Design", "UX/UI", "Illustrator", "Photoshop", "Figma"]
@@ -127,13 +127,13 @@ const data = [{
         "title": "여행일지",
         "url": "https://react-travel-journal-one.vercel.app/",
         "techStack": ["HTML", "CSS", "React"],
-        "description": "여행일지는 is an app that displays information about the places that I have visited in the past. It can store countless memories and displays information about locations, links to Google Maps, dates and photos. It is fully responsive and accessible so it can be viewed by anyone, anywhere, and on any device."
+        "description": "‘여행일지’는 제가 방문했던 여행지를 소개하는 어플입니다. 해당 어플은 사진, 날짜, 구글지도가 연동되어 소중한 기억을 보관할 수 있습니다. 반응형 웹사이트로 개발되었으며 어떤 기종이든 상관없이 누구든 해당 서비스를 열람할 수 있습니다."
       },
       {
         "title": "영화목록",
         "url": "https://its-haanna.github.io/Scrimba_Projects/Movie_watchlist/",
         "techStack": ["HTML", "CSS", "JavaScript", "API"],
-        "description": "영화목록은 is a searchable database of popular movies and tv shows. Users can look for a title that interests them, read about it and add it to a watchlist. Added movies will be stored in the user's local storage until they decide to remove them."
+        "description": "‘영화 리스트’는 인기 있는 영화와 TV프로그램의 검색 데이터베이스입니다. 사용자들은 보고 싶은 프로그램을 검색할 수 있고 또한 봐야 할 목록에 추가할 수도 있습니다. 추가된 프로그램은 삭제하기 전까지 사용자 개인저장소에 보관됩니다."
       }
     ],
   "experience": [
@@ -151,7 +151,7 @@ const data = [{
       "position": "교대조 관리인/바리스타",
       "start": "4월 2017",
       "end": "4월 2018",
-      "responsibilities": ["Managed and led staff of two to three baristas while ensuring the highest quality of service.", "Effectively handled customer complaints and special requests, educated customers about the differences in coffee beans, drinks and Company’s standards.", "Maintained inventory levels to ensure product availability and reduced the number of expired products which resulted in lowering the Coffee Shop's expenses."]
+      "responsibilities": ["최상의 서비스를 제공할 수 있도록 바리스타 직원들 관리 감독.", "고객들의 요청이나 불만사항을 효율적으로 응대 및 회사와 커피 관련 내용을 소개.", "피크 타임을 고려한 효율적인 재고관리를 통해 매장의 지출 감소에 기여."]
     }],
   "education": [
     {
@@ -169,13 +169,13 @@ const data = [{
     },
     {
       "name": "바르샤바대학원",
-      "area": "English Studies (석사)",
+      "area": "영어학석사",
       "start": "10월 2018",
       "end": "9월 2020"
     },
     {
       "name": "SWPS대학교",
-      "area": "English Studies (학사)",
+      "area": "언어학석사",
       "start": "10월 2015",
       "end": " 7월 2018"
     }
