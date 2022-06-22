@@ -397,7 +397,11 @@ h3 {
   }
 
   .languages {
-    justify-content: space-between;
+    justify-content: flex-start;
+  }
+
+  .language {
+    margin-right: 30px;
   }
 
   main {

@@ -1,6 +1,6 @@
 const data = [{
   "cv": "Download CV",
-  "cvFile": "files/HA_ANNA_CV.pdf",
+  "cvFile": "files/HA_ANNA_CV_ENG.pdf",
   "langButton": "한",
   "name": "Ha Anna",
   "position": "Front-end Developer/Designer",
@@ -107,7 +107,7 @@ const data = [{
 },
 {
   "cv": "이력서 다운로드",
-  "cvFile": "files/HA_ANNA_CV.pdf",
+  "cvFile": "files/HA_ANNA_CV_KOR.pdf",
   "langButton": "Eng",
   "name": "하안나",
   "position": "프론트엔드 개발자/디자이너",
