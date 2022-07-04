@@ -21,7 +21,7 @@ After learning basics of React, I decided to test my skills by creating this pag
 
 ### Screenshot
 
-![alt text](./)
+![alt text](./ha-anna-cv-vercel.gif)
 
 ### Links
 
