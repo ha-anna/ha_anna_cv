@@ -1,8 +1,7 @@
 import React from "react";
 
-export default function Languages(props) {
-  const languagesArray = props.languages
-  const languages = languagesArray.map(lang => {
+export default function Languages({ languages }) {
+  const languagesHtml = languages.map(lang => {
 
     return (
       <div className="language" key={lang.lang}>
@@ -14,9 +13,9 @@ export default function Languages(props) {
 
   return (
     <section aria-labelledby="languages">
-      <h2 id="languages">{props.languages[0].id}</h2>
+      <h2 id="languages">{languages[0].id}</h2>
       <div className="languages">
-        {languages}
+        {languagesHtml}
       </div>
     </section>
   )

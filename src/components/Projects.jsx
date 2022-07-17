@@ -1,12 +1,11 @@
 import React from "react";
 
-export default function Projects(props) {
-  const projectsArray = props.projects
+export default function Projects({ projects }) {
 
-  const projects = projectsArray.map(project => {
+  const projectsHtml = projects.map(project => {
     return (
       <div className="project" key={project.title}>
-        <h3><a href={project.url} target="_blank" rel="noreferrer" className="link">{project.title}</a></h3>
+        <h3><a href={project.url} target="_blank" className="link">{project.title}</a></h3>
 
         <div className="tech-stack">
           {project.techStack.map(tech => {
@@ -22,8 +21,8 @@ export default function Projects(props) {
 
   return (
     <section aria-labelledby="projects">
-      <h2 id="projects">{props.projects[0].id}</h2>
-      {projects}
+      <h2 id="projects">{projects[0].id}</h2>
+      {projectsHtml}
     </section>
   )
 }

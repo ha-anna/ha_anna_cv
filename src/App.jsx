@@ -1,5 +1,4 @@
 import React from "react";
-import './style.css'
 import data from './data'
 import Header from './components/Header'
 import Introduction from "./components/Introduction";

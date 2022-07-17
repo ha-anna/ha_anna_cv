@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Education(props) {
-  const educationArray = props.education
-  const education = educationArray.map(ed => {
+export default function Education({ education }) {
+
+  const educationHtml = education.map(ed => {
     return (
       <div className="school" key={ed.name}>
         <h3>{ed.name}</h3>
@@ -17,8 +17,8 @@ export default function Education(props) {
 
   return (
     <section aria-labelledby="education">
-      <h2 id="education">{props.education[0].id}</h2>
-      {education}
+      <h2 id="education">{education[0].id}</h2>
+      {educationHtml}
     </section>
   )
 }

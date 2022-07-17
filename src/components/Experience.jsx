@@ -1,9 +1,8 @@
 import React from "react";
 
-export default function Experience(props) {
-  const experienceArray = props.experience
+export default function Experience({ experience }) {
 
-  const experience = experienceArray.map(exp => {
+  const experienceHtml = experience.map(exp => {
     return (
       <div className="experience" key={exp.name}>
         <h3>{exp.name}</h3>
@@ -25,8 +24,8 @@ export default function Experience(props) {
 
   return (
     <section aria-labelledby="experience">
-      <h2 id="experience">{props.experience[0].id}</h2>
-      {experience}
+      <h2 id="experience">{experience[0].id}</h2>
+      {experienceHtml}
     </section>
   )
 }

@@ -11,16 +11,16 @@ const data = [{
   "about": "Creative, meticulous and highly motivated front-end developer with a goal to make engaging and practical user experiences. Very passionate about accessibility, aesthetics and UI.",
   "skills": {
     "id": "skills",
-    "skills": ["HTML", "CSS", "JavaScript", "React", "Sass", "Bootstrap", "Tailwind CSS", "Git&Github", "Responsive Design", "UX/UI", "Illustrator", "Photoshop", "Figma"]
+    "list": ["HTML", "CSS", "JavaScript", "React", "Sass", "Bootstrap", "Tailwind CSS", "Git&Github", "Responsive Design", "UX/UI", "Illustrator", "Photoshop", "Figma"]
   },
   "projects":
     [
       {
         "id": "projects",
-        "title": "Travel Journal",
-        "url": "https://react-travel-journal-one.vercel.app/",
-        "techStack": ["HTML", "CSS", "React"],
-        "description": "Travel Journal is an app that displays information about the places that I have visited in the past. It can store countless memories and displays information about locations, links to Google Maps, dates and photos. It is fully responsive and accessible so it can be viewed by anyone, anywhere, and on any device."
+        "title": "Quizzical",
+        "url": "https://react-quizzical.vercel.app/",
+        "techStack": ["React", "CSS", "API"],
+        "description": "Quizzical is a single-page application that uses the Open Trivia Database API to fetch and render ten questions, with four possible answers each. The user can choose the question set from various categories (General Knowledge, Entertainment, Science, Animals, etc.) and difficulty levels (mix, easy, medium, difficult). In the end, answers are checked and counted, correct and wrong answers are displayed and points are counted."
       }, {
         "title": "Movie Watchlist",
         "url": "https://its-haanna.github.io/Scrimba_Projects/Movie_watchlist/",
@@ -118,7 +118,7 @@ const data = [{
   "about": "일에 동기가 확실하고 창의적이며 매사에 꼼꼼한 프론트앤드 개발자입니다. UI, 미학적인 디자인, 개방된 접근성을 중심으로 실용적인 사용자 경험을 추구하고자 합니다.",
   "skills": {
     "id": "기술",
-    "skills": ["HTML", "CSS", "JavaScript", "React", "Sass", "Bootstrap", "Tailwind CSS", "Git&Github", "Responsive Design", "UX/UI", "Illustrator", "Photoshop", "Figma"]
+    "list": ["HTML", "CSS", "JavaScript", "React", "Sass", "Bootstrap", "Tailwind CSS", "Git&Github", "Responsive Design", "UX/UI", "Illustrator", "Photoshop", "Figma"]
   },
   "projects":
     [
@@ -139,7 +139,6 @@ const data = [{
   "experience": [
     {
       "id": "경력사항",
-      "cvFile": "files/HA_ANNA_CV.pdf",
       "name": "Studio Siseon",
       "position": "메니저",
       "start": "7월 2018",
@@ -214,9 +213,6 @@ const data = [{
     },
   ]
 }
-
-
-
 ]
 
 export default data
