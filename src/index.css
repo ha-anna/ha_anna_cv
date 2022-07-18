@@ -434,6 +434,17 @@ h3 {
     display: unset;
   }
 
+  
+  .info,
+  .about,
+  .tech-stack,
+  .exp-info,
+  .edu-info,
+  .cert-detail,
+  .lang-level {
+    color: var(--primary);
+  }
+
   .languages,
   .intro-info,
   .exp,
@@ -482,7 +493,16 @@ h3 {
 
   .line {
     margin: 0 5px;
-    color: var(--subtitles);
+    color: var(--primary);
+  }
+
+  .cert-detail {
+    display: inline;
+  }
+
+  .cert-desc {
+    display: block;
+    margin-bottom: 10px;
   }
 
   #root {
@@ -495,15 +515,17 @@ h3 {
     margin-top: 15px;
   }
 
-
+  h2 {
+    color: var(--primary);
+  }
 
   h3 {
     font-size: 16px;
     margin-bottom: 5px;
   }
 
-  h3 .link {
-    color: #000;
+  .link {
+    color: var(--primary);
   }
 
   .school>h3:not(:first-child) {
