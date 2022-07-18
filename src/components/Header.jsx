@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Header({ langButton, toggleLanguage, cvFile, cv }) {
+export default function Header({ toggleLanguage, cvFile, cv }) {
 
   return (
     <header >
@@ -8,7 +8,13 @@ export default function Header({ langButton, toggleLanguage, cvFile, cv }) {
       <form action={`/${cvFile}`}>
         <button className="download-button">{cv}</button>
       </form>
-      <button onClick={toggleLanguage} className="lang-button" aria-label="Change language">{langButton}</button>
+      <div className="tooltip-wrap">
+        <button onClick={toggleLanguage} className="lang-button" aria-label="Change language">🌍 Lang</button>
+        <div className="tooltip-content">
+          <span>🔁 English, Korean, Polish</span>
+        </div>
+      </div>
+
     </header>
   )
 }

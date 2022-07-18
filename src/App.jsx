@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Certification from "./components/Certification";
 import Languages from "./components/Languages";
 import Sns from "./components/Sns";
 
@@ -16,11 +17,13 @@ export default function App() {
     if (currentLang === data[0]) {
       setCurrentLang(prevCurrentLang => data[1])
     } else if (currentLang === data[1]) {
+      setCurrentLang(prevCurrentLang => data[2])
+    } else if (currentLang === data[2]) {
       setCurrentLang(prevCurrentLang => data[0])
     }
   }
 
-  const { cv, cvFile, langButton, name, position, location, webpage, email, phone, about, skills, projects, experience, education, languages, sns } = currentLang
+  const { cv, cvFile, name, position, location, webpage, email, phone, about, skills, projects, experience, education, certificates, languages, sns } = currentLang
 
   return (
     <>
@@ -28,7 +31,6 @@ export default function App() {
         cv={cv}
         toggleLanguage={toggleLanguage}
         cvFile={cvFile}
-        langButton={langButton}
       />
       <main>
         <Introduction
@@ -51,6 +53,9 @@ export default function App() {
         />
         <Education
           education={education}
+        />
+        <Certification
+          certificates={certificates}
         />
         <Languages
           languages={languages}

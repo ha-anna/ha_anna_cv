@@ -1,7 +1,6 @@
 const data = [{
   "cv": "Download CV",
   "cvFile": "files/HA_ANNA_CV_ENG.pdf",
-  "langButton": "한",
   "name": "Ha Anna",
   "position": "Front-end Developer/Designer",
   "location": "Seoul, South Korea",
@@ -20,7 +19,7 @@ const data = [{
         "title": "Quizzical",
         "url": "https://react-quizzical.vercel.app/",
         "techStack": ["React", "CSS", "API"],
-        "description": "Quizzical is a single-page application that uses the Open Trivia Database API to fetch and render ten questions, with four possible answers each. The user can choose the question set from various categories (General Knowledge, Entertainment, Science, Animals, etc.) and difficulty levels (mix, easy, medium, difficult). In the end, answers are checked and counted, correct and wrong answers are displayed and points are counted."
+        "description": "Quizzical is a single-page application that uses the Open Trivia Database API to fetch and render ten questions, with four possible answers each. The user can choose the question set from various categories (General Knowledge, Entertainment, Science, Animals, etc.) and difficulty levels (mix, easy, medium, difficult). At the end of the quiz, answers are checked, correct and wrong answers are displayed, and the points are counted."
       }, {
         "title": "Movie Watchlist",
         "url": "https://its-haanna.github.io/Scrimba_Projects/Movie_watchlist/",
@@ -71,6 +70,39 @@ const data = [{
       "end": " July 2018"
     }
   ],
+  "certificates": [
+    {
+      "id": "Certificates",
+      "name": "Learn React",
+      "description": "Essential React concepts, props, components, reusability, state",
+      "institution": "Scrimba",
+      "date": "July 2022",
+    },
+    {
+      "name": "JavaScript Deep Dive Bootcamp",
+      "description": "Essential JS concepts, ES6, Classes, DOM, Async JS",
+      "institution": "Scrimba",
+      "date": "April 2022 - May 2022",
+    },
+    {
+      "name": "Graphic Design MasterClass",
+      "description": "Graphic Design Theory, Photoshop, Illustrator, InDesign",
+      "institution": "Udemy",
+      "date": "February 2022 - March 2022",
+    },
+    {
+      "name": "UI/UX Specialization",
+      "description": "Visual Elements of User Interface Design, UX Design Fundamentals, Web Design: Strategy and Information Architecture, Web Design: Wireframes to Prototypes",
+      "institution": "Coursera",
+      "date": "December 2021 - March 2022",
+    },
+    {
+      "name": "Responsive Web Design",
+      "description": "HTML, HTML5, CSS, Visual Design, Accessibility, Responsive Web Design Principles, CSS Grid, CSS Flexbox",
+      "institution": "freeCodeCamp",
+      "date": "May 2021 - June 2021",
+    },
+  ],
   "languages": [
     {
       "id": "languages",
@@ -108,7 +140,6 @@ const data = [{
 {
   "cv": "이력서 다운로드",
   "cvFile": "files/HA_ANNA_CV_KOR.pdf",
-  "langButton": "Eng",
   "name": "하안나",
   "position": "프론트엔드 개발자/디자이너",
   "location": "서울, 대한민국",
@@ -179,6 +210,39 @@ const data = [{
       "end": " 7월 2018"
     }
   ],
+  "certificates": [
+    {
+      "id": "자격증",
+      "name": "Learn React",
+      "description": "Essential React concepts, props, components, reusability, state",
+      "institution": "Scrimba",
+      "date": "7월 2022",
+    },
+    {
+      "name": "JavaScript Deep Dive Bootcamp",
+      "description": "Essential JS concepts, ES6, Classes, DOM, Async JS",
+      "institution": "Scrimba",
+      "date": "4월 2022 - 5월 2022",
+    },
+    {
+      "name": "Graphic Design MasterClass",
+      "description": "Graphic Design Theory, Photoshop, Illustrator, InDesign",
+      "institution": "Udemy",
+      "date": "2월 2022 - 3월 2022",
+    },
+    {
+      "name": "UI/UX Specialization",
+      "description": "Visual Elements of User Interface Design, UX Design Fundamentals, Web Design: Strategy and Information Architecture, Web Design: Wireframes to Prototypes",
+      "institution": "Coursera",
+      "date": "12월 2021 - 3월 2022",
+    },
+    {
+      "name": "Responsive Web Design",
+      "description": "HTML, HTML5, CSS, Visual Design, Accessibility, Responsive Web Design Principles, CSS Grid, CSS Flexbox",
+      "institution": "freeCodeCamp",
+      "date": "5월 2021 - 6월 2021",
+    },
+  ],
   "languages": [
     {
       "id": "외국어",
@@ -212,7 +276,146 @@ const data = [{
       "icon": "codepen.png"
     },
   ]
-}
+},
+{
+  "cv": "Pobierz CV",
+  "cvFile": "files/HA_ANNA_CV_POL.pdf",
+  "name": "Ha Anna",
+  "position": "Front-end Developer/Designer",
+  "location": "Seul, South Korea",
+  "webpage": "haanna.com",
+  "email": "anna@haanna.com",
+  "phone": "+82 010-2156-5345",
+  "about": "Front-end developer biegle posługujący się HTML5, CSS3 i JavaScript. Aktualnie jestem w trakcie nauki React.js. Dzięki wiedzy w dziedzinie UI/ UX i umiejętności tworzenia grafik komputerowych jestem w stanie stworzyć unikalne i interesujące wizualnie strony internetowe, które jednocześnie spełniają wymogi responsywnego designu i dostępności.",
+  "skills": {
+    "id": "UMIEJĘTNOŚCI",
+    "list": ["HTML", "CSS", "JavaScript", "React", "Sass", "Bootstrap", "Tailwind CSS", "Git&Github", "Responsive Design", "UX/UI", "Illustrator", "Photoshop", "Figma"]
+  },
+  "projects":
+    [
+      {
+        "id": "projekty",
+        "title": "Quizzical",
+        "url": "https://react-quizzical.vercel.app/",
+        "techStack": ["React", "CSS", "API"],
+        "description": "Quizzical to SPA korzystająca z Open Trivia Database API będąca krótką grą sprawdzającą wiedzę użytkownika z wybranej dziedziny. Po przejściu do ustawień i wybraniu dziedziny pytań oraz ich trudności, pytania są generowane i użytkownik musi wybrać jedną z czterech dostępnych odpowiedzi. Dziedzin do wyboru jest wiele (Wiedza ogólna, Rozrywka, Nauki ścisłe, Zwierzęta itp.), a poziomy trudności są cztery (miks, łatwy, średni, trudny). Po zakończeniu quizu odpowiedzi są sprawdzane, użytkownikowi pokazywane jest, gdzie popełnił błędy oraz która odpowiedź była poprawna, a punkty za poprawne odpowiedzi są zliczane. "
+      }, {
+        "title": "Movie Watchlist",
+        "url": "https://its-haanna.github.io/Scrimba_Projects/Movie_watchlist/",
+        "techStack": ["HTML", "CSS", "JavaScript", "API"],
+        "description": "Movie Watchlist to baza danych popularnych filmów i programów telewizyjnych. Użytkownicy mogą wyszukać interesujący ich tytuł, przeczytać o nim informacje i dodać go do listy obserwowanych. Dodane filmy są przechowywane w lokalnej pamięci przeglądarki."
+      }
+    ],
+  "experience": [
+    {
+      "id": "Doświadczenie zawodowe",
+      "name": "Studio Siseon",
+      "position": "Manager",
+      "start": "Lipiec 2018",
+      "end": "Październik 2020",
+      "responsibilities": ["Nadzorowałam prace administracyjno-biurowe oraz byłam odpowiedzialna za komunikację pomiędzy Studiem a klientami.", "Sprawowałam rolę tłumacza ustnego i pisemnego oraz zajmowałam się wyszukiwaniem informacji na temat Polski i Europy na potrzeby produkcji."]
+    },
+    {
+      "name": "Green Cafe Nero",
+      "position": "Kierownik Zmiany/Barista",
+      "start": "Kwiecień 2017",
+      "end": "Kwiecień 2018",
+      "responsibilities": ["Jako barista i kierownik zmiany zajmowałam się wysokiej jakości obsługą klienta, delegowaniem zadań oraz tworzenie przyjemnej atmosfery w zespole.", "EByłam także odpowiedzialna za prowadzenie zmiany, realizowanie planów oraz składanie raportów."]
+    }],
+  "education": [
+    {
+      "id": "Wykształcenie",
+      "name": "Scrimba",
+      "area": "The Frontend Developer Career Path",
+      "start": "Marzec 2022",
+      "end": "Obecnie"
+    },
+    {
+      "name": "Uniwersytet Sogang",
+      "area": "Kurs Języka Koreańskiego",
+      "start": "Marzec 2021",
+      "end": "Listopad 2021"
+    },
+    {
+      "name": "Uniwersytet Warszawski",
+      "area": "Filologia angielska (magisterka)",
+      "start": "Październik 2018",
+      "end": "Wrzesień 2020"
+    },
+    {
+      "name": "Uniwersytet SWPS",
+      "area": "Filologia angielska (licencjat)",
+      "start": "Październik 2015",
+      "end": "Lipiec 2018"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "Certyfikaty",
+      "name": "Learn React",
+      "description": "Essential React concepts, props, components, reusability, state",
+      "institution": "Scrimba",
+      "date": "Lipiec 2022",
+    },
+    {
+      "name": "JavaScript Deep Dive Bootcamp",
+      "description": "Essential JS concepts, ES6, Classes, DOM, Async JS",
+      "institution": "Scrimba",
+      "date": "Kwiecień 2022 - Maj 2022",
+    },
+    {
+      "name": "Graphic Design MasterClass",
+      "description": "Graphic Design Theory, Photoshop, Illustrator, InDesign",
+      "institution": "Udemy",
+      "date": "Luty 2022 - Marzec 2022",
+    },
+    {
+      "name": "UI/UX Specialization",
+      "description": "Visual Elements of User Interface Design, UX Design Fundamentals, Web Design: Strategy and Information Architecture, Web Design: Wireframes to Prototypes",
+      "institution": "Coursera",
+      "date": "Grudzień 2021 - Marzec 2022",
+    },
+    {
+      "name": "Responsive Web Design",
+      "description": "HTML, HTML5, CSS, Visual Design, Accessibility, Responsive Web Design Principles, CSS Grid, CSS Flexbox",
+      "institution": "freeCodeCamp",
+      "date": "Maj 2021 - Czerwiec 2021",
+    },
+  ],
+  "languages": [
+    {
+      "id": "języki",
+      "lang": "Polski",
+      "level": "Ojczysty"
+    },
+    {
+      "lang": "Angielski",
+      "level": "Zaawansowany"
+    },
+    {
+      "lang": "Koreański",
+      "level": "Średniozaawansowany"
+    },
+  ],
+  "sns": [
+    {
+      "id": "social media",
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/itshaanna/",
+      "icon": "linkedin.png"
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/its-haanna",
+      "icon": "github.png"
+    },
+    {
+      "name": "Codepen",
+      "link": "https://codepen.io/haanna",
+      "icon": "codepen.png"
+    },
+  ]
+},
 ]
 
 export default data
