@@ -6,7 +6,7 @@ export default function Header({ toggleLanguage, cvFile, cv }) {
     <header >
       <h1 className="visually-hidden">Ha Anna's CV</h1>
       <form action={`/${cvFile}`}>
-        <button className="download-button">{cv}</button>
+        <button type="button" className="download-button">{cv}</button>
       </form>
       <div className="tooltip-wrap">
         <button onClick={toggleLanguage} className="lang-button" aria-label="Change language">🌍 Lang</button>

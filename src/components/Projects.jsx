@@ -5,7 +5,7 @@ export default function Projects({ projects }) {
   const projectsHtml = projects.map(project => {
     return (
       <div className="project" key={project.title}>
-        <h3><a href={project.url} target="_blank" className="link">{project.title}</a></h3>
+        <h3><a href={project.url} target="_blank" className="link" rel="noopener">{project.title}</a></h3>
 
         <div className="tech-stack">
           {project.techStack.map(tech => {

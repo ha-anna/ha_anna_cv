@@ -11,7 +11,7 @@ export default function Introduction({ name, position, location, webpage, email,
         <div className="intro-info">
           <span className="info">{location}</span>
           <span className="line" aria-hidden="true">|</span>
-          <a href={`https://www.${webpage}`} target="_blank" className="link">{webpage}</a>
+          <a href={`https://www.${webpage}`} target="_blank" rel="noopener" className="link">{webpage}</a>
           <span className="line" aria-hidden="true">|</span>
           <a href={`mailto:${email}`} className="link" aria-label="e-mail">{email}</a>
           <span className="line" aria-hidden="true">|</span>

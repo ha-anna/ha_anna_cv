@@ -286,7 +286,7 @@ const data = [{
   "webpage": "haanna.com",
   "email": "anna@haanna.com",
   "phone": "+82 010-2156-5345",
-  "about": "Front-end developer biegle posługujący się HTML5, CSS3 i JavaScript. Aktualnie jestem w trakcie nauki React.js. Dzięki wiedzy w dziedzinie UI/ UX i umiejętności tworzenia grafik komputerowych jestem w stanie stworzyć unikalne i interesujące wizualnie strony internetowe, które jednocześnie spełniają wymogi responsywnego designu i dostępności.",
+  "about": "Front-end developer biegle posługujący się HTML5, CSS3 i JavaScript. Aktualnie jestem w trakcie nauki React. Dzięki wiedzy w dziedzinie UI/ UX i umiejętności tworzenia grafik komputerowych jestem w stanie stworzyć unikalne i interesujące wizualnie strony internetowe, które jednocześnie spełniają wymogi responsywnego designu i dostępności.",
   "skills": {
     "id": "UMIEJĘTNOŚCI",
     "list": ["HTML", "CSS", "JavaScript", "React", "Sass", "Bootstrap", "Tailwind CSS", "Git&Github", "Responsive Design", "UX/UI", "Illustrator", "Photoshop", "Figma"]
@@ -298,7 +298,7 @@ const data = [{
         "title": "Quizzical",
         "url": "https://react-quizzical.vercel.app/",
         "techStack": ["React", "CSS", "API"],
-        "description": "Quizzical to SPA korzystająca z Open Trivia Database API będąca krótką grą sprawdzającą wiedzę użytkownika z wybranej dziedziny. Po przejściu do ustawień i wybraniu dziedziny pytań oraz ich trudności, pytania są generowane i użytkownik musi wybrać jedną z czterech dostępnych odpowiedzi. Dziedzin do wyboru jest wiele (Wiedza ogólna, Rozrywka, Nauki ścisłe, Zwierzęta itp.), a poziomy trudności są cztery (miks, łatwy, średni, trudny). Po zakończeniu quizu odpowiedzi są sprawdzane, użytkownikowi pokazywane jest, gdzie popełnił błędy oraz która odpowiedź była poprawna, a punkty za poprawne odpowiedzi są zliczane. "
+        "description": "Quizzical to SPA korzystająca z Open Trivia Database API będąca krótką grą sprawdzającą wiedzę z wybranej dziedziny. Po przejściu do ustawień i wybraniu dziedziny pytań oraz ich trudności, pytania są generowane, a użytkownik musi wybrać jedną z czterech dostępnych odpowiedzi. Dziedzin do wyboru jest wiele (Wiedza ogólna, Rozrywka, Nauki ścisłe, Zwierzęta itp.), a poziomy trudności są cztery (miks, łatwy, średni, trudny). Po zakończeniu quizu odpowiedzi są sprawdzane, użytkownikowi pokazywane jest, gdzie popełnił błędy oraz która odpowiedź była poprawna, a punkty za poprawne odpowiedzi są zliczane. "
       }, {
         "title": "Movie Watchlist",
         "url": "https://its-haanna.github.io/Scrimba_Projects/Movie_watchlist/",
@@ -320,7 +320,7 @@ const data = [{
       "position": "Kierownik Zmiany/Barista",
       "start": "Kwiecień 2017",
       "end": "Kwiecień 2018",
-      "responsibilities": ["Jako barista i kierownik zmiany zajmowałam się wysokiej jakości obsługą klienta, delegowaniem zadań oraz tworzenie przyjemnej atmosfery w zespole.", "EByłam także odpowiedzialna za prowadzenie zmiany, realizowanie planów oraz składanie raportów."]
+      "responsibilities": ["Jako barista i kierownik zmiany zajmowałam się wysokiej jakości obsługą klienta, delegowaniem zadań oraz tworzenie przyjemnej atmosfery w zespole.", "Byłam także odpowiedzialna za prowadzenie zmiany, realizowanie planów oraz składanie raportów."]
     }],
   "education": [
     {

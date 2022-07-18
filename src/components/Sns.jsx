@@ -5,7 +5,7 @@ export default function Sns({ sns }) {
   const snsHtml = sns.map(social => {
     return (
       <div className="sns" key={social.name}>
-        <a href={social.link} target="_blank"><img src={`images/${social.icon}`} alt={social.name} className="sns-icon" /></a>
+        <a href={social.link} target="_blank" rel="noopener"><img src={`images/${social.icon}`} alt={social.name} className="sns-icon" /></a>
       </div>
     )
   })
