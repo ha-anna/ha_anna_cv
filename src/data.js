@@ -155,10 +155,10 @@ const data = [{
     [
       {
         "id": "프로젝트",
-        "title": "여행일지",
-        "url": "https://react-travel-journal-one.vercel.app/",
-        "techStack": ["HTML", "CSS", "React"],
-        "description": "‘여행일지’는 제가 방문했던 여행지를 소개하는 어플입니다. 해당 어플은 사진, 날짜, 구글지도가 연동되어 소중한 기억을 보관할 수 있습니다. 반응형 웹사이트로 개발되었으며 어떤 기종이든 상관없이 누구든 해당 서비스를 열람할 수 있습니다."
+        "title": "Quizzical",
+        "url": "https://react-quizzical.vercel.app/",
+        "techStack": ["CSS", "React"],
+        "description": "‘Quizzical은 오픈트라비아 데이터베이스 API를 이용하여 사지선다형 퀴즈를 제공하는 어플리케이션입니다. 사용자는 일반상식, 연예, 과학, 동물 등 다양한 분야에서 질문과 4가지 단계의 난이도를 선택할 수 있습니다. 퀴즈를 풀고 나면 답변이 기록되어 정답과 오답이 보이며, 사용자는 최종점수를 확인할 수 있습니다."
       },
       {
         "title": "영화목록",
@@ -186,7 +186,7 @@ const data = [{
   "education": [
     {
       "id": "학력사항",
-      "name": "Scrimba",
+      "name": "스크림바 (Scrimba)",
       "area": "프론트엔드 개발자 부트캠프",
       "start": "3월 2022",
       "end": "지금"
@@ -213,33 +213,33 @@ const data = [{
   "certificates": [
     {
       "id": "자격증",
-      "name": "Learn React",
+      "name": "런 리액트 (LEARN REACT)",
       "description": "Essential React concepts, props, components, reusability, state",
-      "institution": "Scrimba",
+      "institution": "스크림바 (Scrimba)",
       "date": "7월 2022",
     },
     {
-      "name": "JavaScript Deep Dive Bootcamp",
+      "name": "자바 스크립트 심화코스 (JAVASCRIPT DEEP DIVE BOOTCAMP)",
       "description": "Essential JS concepts, ES6, Classes, DOM, Async JS",
-      "institution": "Scrimba",
+      "institution": "스크림바 (Scrimba)",
       "date": "4월 2022 - 5월 2022",
     },
     {
-      "name": "Graphic Design MasterClass",
+      "name": "그래픽 디자인 심화코스 (GRAPHIC DESIGN MASTERCLASS)",
       "description": "Graphic Design Theory, Photoshop, Illustrator, InDesign",
-      "institution": "Udemy",
+      "institution": "유데미 (Udemy)",
       "date": "2월 2022 - 3월 2022",
     },
     {
-      "name": "UI/UX Specialization",
+      "name": "UI/UX 전문과정 (UI/UX SPECIALIZATION)",
       "description": "Visual Elements of User Interface Design, UX Design Fundamentals, Web Design: Strategy and Information Architecture, Web Design: Wireframes to Prototypes",
-      "institution": "Coursera",
+      "institution": "코세라 (Coursera)",
       "date": "12월 2021 - 3월 2022",
     },
     {
-      "name": "Responsive Web Design",
+      "name": "반응형 웹 디자인 (RESPONSIVE WEB DESIGN)",
       "description": "HTML, HTML5, CSS, Visual Design, Accessibility, Responsive Web Design Principles, CSS Grid, CSS Flexbox",
-      "institution": "freeCodeCamp",
+      "institution": "프리코드캠프 (freeCodeCamp)",
       "date": "5월 2021 - 6월 2021",
     },
   ],
