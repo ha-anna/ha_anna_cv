@@ -318,7 +318,7 @@ const data = [{
 },
 {
   "cv": "Pobierz CV",
-  "cvFile": "files/HA_ANNA_CV_POL.pdf",
+  "cvFile": "files/HA_ANNA_CV_PL.pdf",
   "name": "Ha Anna",
   "position": "Front-end Developer",
   "location": "Seul, Korea Południowa",
