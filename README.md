@@ -1,6 +1,6 @@
 # CV App [10 June 2022]
 
-This is a solo project that I decided to complete so that I can show off my CV in two languages and make it easily downloadable and shareable.
+This is a solo project that I decided to complete so that I can show off my CV in three languages (English, Korean, Polish) and make it easily downloadable and shareable.
 
 ## Table of contents
 
@@ -43,7 +43,7 @@ I became more accustomed with using React and creating data files.
 
 ### Continued development
 
-I plan on adding another language (Polish).
+Keeping the information up to date.
 
 ### Useful resources
 
