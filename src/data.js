@@ -167,7 +167,8 @@ const data = [{
       "link": "https://codepen.io/haanna",
       "icon": "codepen.png"
     },
-  ]
+  ],
+  "clause": "I consent to the processing of my personal data for the purposes necessary for implementation of this process and future recruitment (in accordance with the Act of May 10, 2018 on the protection of personal data (Journal of Laws of 2018, item 1000) and in accordance with the Regulation of the European Parliament and of the Council (EU) 2016/679 of April 27, 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46 / EC (GDPR))."
 },
 {
   "cv": "이력서 다운로드",
@@ -314,7 +315,8 @@ const data = [{
       "link": "https://codepen.io/haanna",
       "icon": "codepen.png"
     },
-  ]
+  ],
+  "clause": ""
 },
 {
   "cv": "Pobierz CV",
@@ -485,7 +487,8 @@ const data = [{
       "link": "https://codepen.io/haanna",
       "icon": "codepen.png"
     },
-  ]
+  ],
+  "clause": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO)."
 },
 ]
 
