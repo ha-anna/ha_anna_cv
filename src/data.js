@@ -327,10 +327,10 @@ const data = [{
   "webpage": "haanna.com",
   "email": "anna@haanna.com",
   "phone": "",
-  "about": "Front-end developer tworzacy projekty przy użyciu HTML5, CSS3, JS i React. Aktualnie jestem w trakcie nauki Typescripta. Dzięki wiedzy w dziedzinie UI/UX i umiejętności tworzenia grafik komputerowych jestem w stanie stworzyć unikalne i interesujące wizualnie strony internetowe, które jednocześnie spełniają wymogi responsywnego designu i dostępności.",
+  "about": "Jestem frontend developerem z wiedzą w dziedzinie UI/UX i umiejętnością tworzenia grafik komputerowych. Moje umiejętności pozwalają mi tworzyć unikalne i interesujące wizualnie strony internetowe, które jednocześnie spełniają wymogi responsywnego designu i dostępności. Aktualnie poszerzam moją wiedzę o Next.js i Node.js.",
   "skills": {
     "id": "UMIEJĘTNOŚCI",
-    "list": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB", "PostgreSQL", "D3.js", "JQuery", "Sass", "Responsive Design", "UX/UI", "Illustrator", "Figma"]
+    "list": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js", "Express.js", "MongoDB", "PostgreSQL", "D3.js", "JQuery", "Sass", "Responsive Design", "UX/UI", "Illustrator", "Figma"]
   },
   "projects":
     [
@@ -350,8 +350,8 @@ const data = [{
   "experience": [
         {
       "id": "Doświadczenie zawodowe",
-      "name": "Front-end Deweloper (freelancer)",
-      "position": "Deweloper",
+      "name": "Front-end Developer (freelancer)",
+      "position": "Developer",
       "start": "Grudzień 2022",
       "end": "Obecnie",
       "responsibilities": ["Tworzenie projektów wg. wymogów klienta.", "Organizacja pracy, kontakt z klientem."]
