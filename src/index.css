@@ -59,7 +59,6 @@ header {
 main {
   width: 90%;
   max-width: 1200px;
-  /* aspect-ratio: 1 / 1.4; */
   margin: 30px auto 50px auto;
   background: var(--background);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
