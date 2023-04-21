@@ -59,14 +59,14 @@ header {
 main {
   width: 90%;
   max-width: 1200px;
-  aspect-ratio: 1 / 1.4;
+  /* aspect-ratio: 1 / 1.4; */
   margin: 30px auto 50px auto;
   background: var(--background);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 1px;
   padding: 30px;
   line-height: 1.5;
-  height: 100%;
+  min-height: 100%;
 }
 
 /* intro section */
