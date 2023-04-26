@@ -154,12 +154,12 @@ const data = [{
     {
       "id": "social media",
       "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/itshaanna/",
+      "link": "https://www.linkedin.com/in/ha-anna/",
       "icon": "linkedin.png"
     },
     {
       "name": "Github",
-      "link": "https://github.com/its-haanna",
+      "link": "https://github.com/ha-anna",
       "icon": "github.png"
     },
     {
@@ -302,12 +302,12 @@ const data = [{
     {
       "id": "소셜 미디어",
       "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/itshaanna/",
+      "link": "https://www.linkedin.com/in/ha-anna/",
       "icon": "linkedin.png"
     },
     {
       "name": "Github",
-      "link": "https://github.com/its-haanna",
+      "link": "https://github.com/ha-anna",
       "icon": "github.png"
     },
     {
@@ -474,12 +474,12 @@ const data = [{
     {
       "id": "social media",
       "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/itshaanna/",
+      "link": "https://www.linkedin.com/in/ha-anna/",
       "icon": "linkedin.png"
     },
     {
       "name": "Github",
-      "link": "https://github.com/its-haanna",
+      "link": "https://github.com/ha-anna",
       "icon": "github.png"
     },
     {
