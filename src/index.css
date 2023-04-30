@@ -303,7 +303,7 @@ section {
 .link {
   display: inline-block;
   position: relative;
-  color: var(--subtitles);
+  color: var(--primary);
   text-decoration: none;
 }
 
@@ -323,6 +323,10 @@ section {
 .link:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.certificate {
+  margin-bottom: 15px;
 }
 
 
@@ -438,6 +442,52 @@ h3 {
 
 }
 
+
+@media screen and (min-width: 1200px) {
+  main {
+    padding: 40px 80px;
+  }
+
+  .line {
+    display: unset;
+    margin: 0 5px;
+  }
+
+  .languages,
+  .intro-info,
+  .exp,
+  .edu {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .cert-detail {
+    display: inline;
+  }
+
+  .cert-desc {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .languages {
+    justify-content: space-between;
+  }
+
+  .lang-name {
+    margin-top: 0;
+  }
+
+  .date {
+    font-size: 1rem;
+  }
+
+  .skill {
+    font-size: 1rem;
+  }
+
+}
+
 @media print {
 
   .link-svg {
@@ -448,7 +498,7 @@ h3 {
     margin: 0;
     color: #000;
     background-color: #fff;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .introduction {
@@ -470,15 +520,15 @@ h3 {
   }
 
   .tech {
-    border: none;
-    padding: 0;
+    border: 0.5px solid var(--primary);
     margin-top: 0;
+    font-size: 9px;
   }
 
 
   .tech-stack {
     margin-left: 0;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
 
   .line {
@@ -510,6 +560,9 @@ h3 {
   .language {
     margin-right: 30px;
   }
+  .edu, .exp, .experience {
+    margin-bottom: 3px;
+  }
 
   #gdr-clause {
     display: unset;
@@ -533,6 +586,9 @@ h3 {
     margin-top: 0;
   }
 
+  .about {
+    margin-top: 2px;
+  }
 
   .introduction {
     margin-bottom: 0px;
@@ -583,17 +639,13 @@ h3 {
   }
 
   h3 {
-    font-size: 16px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 3px;
+    margin-top: 3px;
   }
 
   .link {
     color: var(--primary);
-  }
-
-  .school>h3:not(:first-child) {
-    margin-top: 5px;
   }
 
   .languages {
@@ -613,6 +665,7 @@ h3 {
   #sns-section {
     display: none;
   }
+
 
   h3 .print-link {
     display: unset;

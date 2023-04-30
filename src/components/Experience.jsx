@@ -12,12 +12,12 @@ export default function Experience({ experience }) {
           <span className="exp-info date">{exp.start} - {exp.end}</span>
         </div>
 
-        <ul className="exp-details">
+        {/* <ul className="exp-details">
           {exp.responsibilities.map(res => {
 
             return <li key={res} className="detail">{res} </li>
           })}
-        </ul>
+        </ul> */}
       </div>
     )
   })

@@ -6,11 +6,11 @@ const data = [{
   "location": "Seoul, South Korea",
   "webpage": "haanna.com",
   "email": "anna@haanna.com",
-  "phone": "",
+  "phone": "+82 010-2156-5345",
   "about": "Creative, meticulous and highly motivated front-end developer with a goal to make engaging and practical user experiences. Very passionate about accessibility, aesthetics and UI.",
   "skills": {
     "id": "skills",
-    "list": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB", "PostgreSQL", "D3.js", "JQuery", "Sass", "Responsive Design", "UX/UI", "Illustrator", "Figma"]
+    "list": ["HTML", "CSS", "JavaScript", "React", "Next.js", "Node.js", "Express.js", "MongoDB", "SQL", "PostgreSQL", "D3.js", "JQuery", "Sass", "Responsive Design", "UX/UI", "Illustrator"]
   },
   "projects":
     [
@@ -19,12 +19,12 @@ const data = [{
         "title": "Photographer's Portfolio page",
         "url": "https://portfolio-hyj.vercel.app/",
         "techStack": ["React", "CSS", "React Router", "NPM", "SEO"],
-        "description": "Commission. The goal was to create a webpage that allows to view the images comfortably and get to know the artist. Build with React + JS and mobile-first approach, routing created with React Router. All images were encoded with either mozjpeg or turned into webp for a faster load, npms were used for image carousel and masonry layout."
+        "description": "I designed and built an artist portfolio website using React and JavaScript. It's mobile-friendly and visually appealing with optimized image loading, image carousel, and masonry layout."
       },{
         "title": "Quizzical",
         "url": "https://react-quizzical.vercel.app/",
         "techStack": ["React", "CSS", "API"],
-        "description": "Quizzical is a single-page application that uses the Open Trivia Database API to fetch and render ten questions, with four possible answers each. The user can choose the question set from various categories (General Knowledge, Entertainment, Science, Animals, etc.) and difficulty levels (mix, easy, medium, difficult). At the end of the quiz, answers are checked, correct and wrong answers are displayed, and the points are counted."
+        "description": "I developed Quizzical, a single-page application that utilizes the Open Trivia Database API to fetch and display ten questions, with various categories and difficulty levels to choose from. Upon completion, the quiz provides users with their score, displays correct and incorrect answers, and offers a fun way to test knowledge."
       }
     ],
   "experience": [
@@ -91,48 +91,35 @@ const data = [{
       "description": "D3.js, API, JSON",
       "institution": "FreeCodeCamp",
       "date": "February 2023",
+"url": "https://tinyurl.com/hafdv"
     },
     {
       "name": "Back End Development and APIs",
       "description": "Node.js, MongoDB",
       "institution": "FreeCodeCamp",
       "date": "January 2023",
+"url": "https://tinyurl.com/habapi"
     },
     {
       "name": "The Frontend Developer Career Path",
       "description": "HTML, CSS, Git, JavaScript, React, UI design",
       "institution": "Scrimba",
       "date": "November 2022",
-    },
-    {
-      "name": "Learn React",
-      "description": "Essential React concepts, props, components, reusability, state",
-      "institution": "Scrimba",
-      "date": "July 2022",
+"url": "https://tinyurl.com/hascfe"
     },
     {
       "name": "JavaScript Deep Dive Bootcamp",
       "description": "Essential JS concepts, ES6, Classes, DOM, Async JS",
       "institution": "Scrimba",
       "date": "April 2022 - May 2022",
-    },
-    {
-      "name": "Graphic Design MasterClass",
-      "description": "Graphic Design Theory, Photoshop, Illustrator, InDesign",
-      "institution": "Udemy",
-      "date": "February 2022 - March 2022",
-    },
-    {
-      "name": "UI/UX Specialization",
-      "description": "Visual Elements of User Interface Design, UX Design Fundamentals, Web Design: Strategy and Information Architecture, Web Design: Wireframes to Prototypes",
-      "institution": "Coursera",
-      "date": "December 2021 - March 2022",
+"url": "https://tinyurl.com/hasjs"
     },
     {
       "name": "Responsive Web Design",
       "description": "HTML, HTML5, CSS, Visual Design, Accessibility, Responsive Web Design Principles, CSS Grid, CSS Flexbox",
       "institution": "FreeCodeCamp",
       "date": "May 2021 - June 2021",
+      "url": "https://tinyurl.com/harwd"
     },
   ],
   "languages": [
@@ -168,7 +155,7 @@ const data = [{
       "icon": "codepen.png"
     },
   ],
-  "clause": "I consent to the processing of my personal data for the purposes necessary for implementation of this process and future recruitment (in accordance with the Act of May 10, 2018 on the protection of personal data (Journal of Laws of 2018, item 1000) and in accordance with the Regulation of the European Parliament and of the Council (EU) 2016/679 of April 27, 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46 / EC (GDPR))."
+  // "clause": "I consent to the processing of my personal data for the purposes necessary for implementation of this process and future recruitment (in accordance with the Act of May 10, 2018 on the protection of personal data (Journal of Laws of 2018, item 1000) and in accordance with the Regulation of the European Parliament and of the Council (EU) 2016/679 of April 27, 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46 / EC (GDPR))."
 },
 {
   "cv": "이력서 다운로드",
@@ -182,23 +169,24 @@ const data = [{
   "about": "일에 동기가 확실하고 창의적이며 매사에 꼼꼼한 프론트앤드 개발자입니다. UI, 미학적인 디자인, 개방된 접근성을 중심으로 실용적인 사용자 경험을 추구하고자 합니다.",
   "skills": {
     "id": "기술",
-    "list": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB", "PostgreSQL", "D3.js", "JQuery", "Sass", "Responsive Design", "UX/UI", "Illustrator", "Figma"]
+    "list": ["HTML", "CSS", "JavaScript", "React", "Next.js", "Node.js", "Express.js", "MongoDB", "SQL", "PostgreSQL", "D3.js", "JQuery", "Sass", "Responsive Design", "UX/UI", "Illustrator"]
   },
   "projects":
     [
       {
         "id": "프로젝트",
+        "title": "사진작가의 포트폴리오 페이지",
+        "url": "https://portfolio-hyj.vercel.app/",
+        "techStack": ["React", "CSS", "React Router", "NPM", "SEO"],
+        "description": "React와 JavaScript를 사용하여 예술가 포트폴리오 웹사이트를 디자인하고 구축했습니다. 모바일 친화적이며 이미지 로딩, 이미지 캐러셀 및 메이슨리 레이아웃이 최적화되어 시각적으로 매력적입니다."
+      },
+      {
         "title": "Quizzical",
         "url": "https://react-quizzical.vercel.app/",
         "techStack": ["CSS", "React"],
         "description": "‘Quizzical은 오픈트라비아 데이터베이스 API를 이용하여 사지선다형 퀴즈를 제공하는 어플리케이션입니다. 사용자는 일반상식, 연예, 과학, 동물 등 다양한 분야에서 질문과 4가지 단계의 난이도를 선택할 수 있습니다. 퀴즈를 풀고 나면 답변이 기록되어 정답과 오답이 보이며, 사용자는 최종점수를 확인할 수 있습니다."
       },
-      {
-        "title": "영화목록",
-        "url": "https://its-haanna.github.io/Scrimba_Projects/Movie_watchlist/",
-        "techStack": ["HTML", "CSS", "JavaScript", "API"],
-        "description": "‘영화 리스트’는 인기 있는 영화와 TV프로그램의 검색 데이터베이스입니다. 사용자들은 보고 싶은 프로그램을 검색할 수 있고 또한 봐야 할 목록에 추가할 수도 있습니다. 추가된 프로그램은 삭제하기 전까지 사용자 개인저장소에 보관됩니다."
-      }
+
     ],
   "experience": [
     {
@@ -251,36 +239,41 @@ const data = [{
     }
   ],
   "certificates": [
-    {
+  {
       "id": "자격증",
-      "name": "런 리액트 (LEARN REACT)",
-      "description": "Essential React concepts, props, components, reusability, state",
+      "name": "데이터 시각화 (Data Visualization)",
+      "description": "D3.js, API, JSON",
+      "institution": "프리코드캠프 (freeCodeCamp)",
+      "date": "2월 2023",
+      "url": "https://tinyurl.com/hafdv"
+    },
+    {
+      "name": "백엔드 개발 및 API (Back End Development and APIs)",
+      "description": "Node.js, MongoDB",
+      "institution": "프리코드캠프 (freeCodeCamp)",
+      "date": "1월 2023",
+      "url": "https://tinyurl.com/habapi"
+    },
+    {
+      "name": "프런트엔드 개발자의 진로 (The Frontend Developer Career Path)",
+      "description": "HTML, CSS, Git, JavaScript, React, UI design",
       "institution": "스크림바 (Scrimba)",
-      "date": "7월 2022",
+      "date": "11월 2022",
+      "url": "https://tinyurl.com/hascfe"
     },
     {
       "name": "자바 스크립트 심화코스 (JAVASCRIPT DEEP DIVE BOOTCAMP)",
       "description": "Essential JS concepts, ES6, Classes, DOM, Async JS",
       "institution": "스크림바 (Scrimba)",
       "date": "4월 2022 - 5월 2022",
-    },
-    {
-      "name": "그래픽 디자인 심화코스 (GRAPHIC DESIGN MASTERCLASS)",
-      "description": "Graphic Design Theory, Photoshop, Illustrator, InDesign",
-      "institution": "유데미 (Udemy)",
-      "date": "2월 2022 - 3월 2022",
-    },
-    {
-      "name": "UI/UX 전문과정 (UI/UX SPECIALIZATION)",
-      "description": "Visual Elements of User Interface Design, UX Design Fundamentals, Web Design: Strategy and Information Architecture, Web Design: Wireframes to Prototypes",
-      "institution": "코세라 (Coursera)",
-      "date": "12월 2021 - 3월 2022",
+      "url": "https://tinyurl.com/hasjs"
     },
     {
       "name": "반응형 웹 디자인 (RESPONSIVE WEB DESIGN)",
       "description": "HTML, HTML5, CSS, Visual Design, Accessibility, Responsive Web Design Principles, CSS Grid, CSS Flexbox",
       "institution": "프리코드캠프 (freeCodeCamp)",
       "date": "5월 2021 - 6월 2021",
+      "url": "https://tinyurl.com/harwd"
     },
   ],
   "languages": [
@@ -330,7 +323,7 @@ const data = [{
   "about": "Jestem frontend developerem z wiedzą w dziedzinie UI/UX i umiejętnością tworzenia grafik komputerowych. Moje umiejętności pozwalają mi tworzyć unikalne i interesujące wizualnie strony internetowe, które jednocześnie spełniają wymogi responsywnego designu i dostępności. Aktualnie poszerzam moją wiedzę o Next.js i Node.js.",
   "skills": {
     "id": "UMIEJĘTNOŚCI",
-    "list": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js", "Express.js", "MongoDB", "PostgreSQL", "D3.js", "JQuery", "Sass", "Responsive Design", "UX/UI", "Illustrator", "Figma"]
+    "list": ["HTML", "CSS", "JavaScript", "React", "Next.js", "Node.js", "Express.js", "MongoDB", "SQL", "PostgreSQL", "D3.js", "JQuery", "Sass", "Responsive Design", "UX/UI", "Illustrator"]
   },
   "projects":
     [
@@ -411,48 +404,35 @@ const data = [{
       "description": "D3.js, API, JSON",
       "institution": "FreeCodeCamp",
       "date": "Luty 2023",
+      "url": "https://tinyurl.com/hafdv"
     },
     {
       "name": "Back End Development and APIs",
       "description": "Node.js, MongoDB",
       "institution": "FreeCodeCamp",
       "date": "Styczeń 2023",
+      "url": "https://tinyurl.com/habapi"
     },
         {
       "name": "The Frontend Developer Career Path",
       "description": "HTML, CSS, Git, JavaScript, React, UI design",
       "institution": "Scrimba",
       "date": "Listopad 2022",
-    },
-    {
-      "name": "Learn React",
-      "description": "Kluczowa wiedza o React, props, components, reusability, state",
-      "institution": "Scrimba",
-      "date": "Lipiec 2022",
+      "url": "https://tinyurl.com/hascfe"
     },
     {
       "name": "JavaScript Deep Dive Bootcamp",
       "description": "Essential JS concepts, ES6, Classes, DOM, Async JS",
       "institution": "Scrimba",
       "date": "Kwiecień 2022 - Maj 2022",
-    },
-    {
-      "name": "Graphic Design MasterClass",
-      "description": "Graphic Design Theory, Photoshop, Illustrator, InDesign",
-      "institution": "Udemy",
-      "date": "Luty 2022 - Marzec 2022",
-    },
-    {
-      "name": "UI/UX Specialization",
-      "description": "Visual Elements of User Interface Design, UX Design Fundamentals, Web Design: Strategy and Information Architecture, Web Design: Wireframes to Prototypes",
-      "institution": "Coursera",
-      "date": "Grudzień 2021 - Marzec 2022",
+      "url": "https://tinyurl.com/hasjs"
     },
     {
       "name": "Responsive Web Design",
       "description": "HTML, HTML5, CSS, Visual Design, Accessibility, Responsive Web Design Principles, CSS Grid, CSS Flexbox",
       "institution": "FreeCodeCamp",
       "date": "Maj 2021 - Czerwiec 2021",
+      "url": "https://tinyurl.com/harwd"
     },
   ],
   "languages": [
