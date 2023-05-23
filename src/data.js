@@ -92,7 +92,7 @@ const data = [
       {
         name: 'Studio Siseon',
         position: 'Manager',
-        start: 'July 2018',
+        start: 'January 2018',
         end: 'October 2020',
         responsibilities: [
           'Acted as senior liaison between Studio Siseon and the client, always ensuring that all contract requirements were met with complete customer satisfaction.',
@@ -295,7 +295,7 @@ const data = [
       {
         name: 'Studio Siseon',
         position: '메니저',
-        start: '7월 2018',
+        start: '1월 2018',
         end: '10월 2020',
         responsibilities: [
           'Studio Siseon은 폴란드 바르샤바에 위치한 비주얼아트 프로덕션 및 필름 서비스 에이전시입니다. 유럽에 진출한 한국기관을 대상으로 브랜디드 콘텐츠를 제작합니다. 프로젝트 매니저로서 클라이언트와 커뮤니케이션 업무, 프로젝트 운영 업무를 맡았으며 한-영, 한-폴 번역을 진행하기도 하였습니다.',
@@ -497,7 +497,7 @@ const data = [
       {
         name: 'Studio Siseon',
         position: 'Manager',
-        start: 'Lipiec 2018',
+        start: 'Styczeń 2018',
         end: 'Październik 2020',
         responsibilities: [
           'Nadzorowałam prace administracyjno-biurowe oraz byłam odpowiedzialna za komunikację pomiędzy Studiem a klientami.',
